@@ -2,7 +2,7 @@ from __future__ import annotations
 
 # ---- FIX FOR WINDOWS CMD ----
 import matplotlib
-matplotlib.use("TkAgg")
+matplotlib.use("Qt5Agg")
 
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
